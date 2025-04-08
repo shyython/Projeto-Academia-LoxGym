@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+body {
+
+}
+
+header {
+   background-color: #3c3c3c;
+    padding: 15px;
+}
+
+#logo {
+    width: 100px;
+    height: 90px;
+}
+
+#div-logo {
+    background-color: #252424;
+    display: inline-block;
+    border-radius: 55px;
+    padding: 10px; 
+}
+
