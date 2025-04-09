@@ -7,6 +7,12 @@ body {
     background-color: #3c3c3c;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
 header {
     display: flex;
     background-color: #000000;
