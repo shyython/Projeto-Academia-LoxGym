@@ -48,10 +48,21 @@ header {
     padding: 10px; 
 }
 
-#banner-academ{
-    display: inline-block;
-    width: 500px;
-    height: 300px;
+#div-banner{
+    background-image: url('/imagens/banner2.avif');
+    background-position: 100px;
+    height: 400px;
+  
+}
+
+.gym-banner {
+    width: 49vw;
+    height: 400px;
+}
+
+#btn-SaibaMais{
+    position: relative;
+    
 }
 
 
