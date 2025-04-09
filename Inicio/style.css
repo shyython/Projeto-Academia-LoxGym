@@ -4,13 +4,24 @@
     box-sizing: 0px;
 }
 body {
-
+    background-color: #3c3c3c;
 }
 
 header {
-   background-color: #3c3c3c;
-    padding: 15px;
+    display: flex;
+    background-color: #000000;
+    padding-top: 10px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
+
+.link-login{
+    flex: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
 
 #logo {
     width: 100px;
@@ -18,9 +29,16 @@ header {
 }
 
 #div-logo {
-    background-color: #252424;
+    
     display: inline-block;
     border-radius: 55px;
     padding: 10px; 
 }
+
+#banner-academ{
+    display: inline-block;
+    width: 800px;
+    height: 400px;
+}
+
 
