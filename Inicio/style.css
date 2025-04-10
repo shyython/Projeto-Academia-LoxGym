@@ -25,14 +25,20 @@ header {
 .btn-login {
     width: 90px;
     height: 40px;
+    border: none;
     border-radius: 8px;
     align-items: flex-end;
+    background-color: #b9c82b;
 }
 
-.link-login{
+.items-login{
     display: flex;
     flex-wrap: nowrap;
     text-decoration: none;
+}
+
+.items-logo{
+    
 }
 
 
