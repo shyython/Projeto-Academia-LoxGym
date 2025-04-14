@@ -20,8 +20,29 @@ header {
     display: flex;
     background-color: #000000;
     padding-top: 10px;
-    flex-wrap: nowrap;
+    flex-wrap: row wrap;
     justify-content: space-between;
+}
+
+#nav-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 200px;
+    
+}
+
+.link-info {
+    color: #f9ffc1;
+    text-decoration: none;
+}
+
+#btn-teste {
+    display: flex;
+    flex-wrap: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
 }
 
 .btn-login {
@@ -33,26 +54,21 @@ header {
     background-color: #b9c82b;
 }
 
-.items-login {
+#items-login {
     display: flex;
     flex-wrap: nowrap;
     text-decoration: none;
 }
 
-.items-logo {}
+#items-logo {
+
+}
 
 
 #logo {
     width: 100px;
     height: 90px;
-   
-}
 
-#div-logo {
-
-    display: inline-block;
-    border-radius: 55px;
-    padding: 10px;
 }
 
 #div-banner {
@@ -81,18 +97,20 @@ section {
 
 .card-produtos {
     display: flex;
-    background-color: #b9c82b;
+    background-color: #fbffd7;
     border-radius: 5px;
     margin: 15px;
-    width: 350px;
-    height: 450px;
+    width: 200px;
+    height: 300px;
     align-items: center;
     justify-content: center;
     flex-flow: row wrap;
 
 }
 
-.info {}
+.info {
+
+}
 
 .card-produtos > img {
     border-radius: 5px;
@@ -101,6 +119,34 @@ section {
 }
 
 footer {
-    height: 50px;
+    display: flex;
+    color: #f9ffc1;
+    height: 300px;
+    margin-top: 30px;
     background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-logo {
+    font-size: 10px;
+    
+}
+
+#footer-endereco {
+    font-size: 10px;
+}
+
+#footer-central{
+    font-size: 10px;
+}
+
+#icon-redes {
+
+}
+
+.icon-rd {
+    background-color: #b9c82b;
+    padding: 6px;
+    border-radius: 9px;
 }
