@@ -13,7 +13,7 @@ main {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    width: 80vw;
+    width: 90vw;
 }
 
 header {
@@ -73,19 +73,20 @@ header {
 }
 
 #div-banner {
-    background-image: url('/imagens/banner2.avif');
-    background-position: 100px;
+    display: inline-block;
+    /* background-image: url('/imagens/banner2.avif');
+    background-position: 100px; */
     height: 400px;
 
 }
 
 .gym-banner {
-    width: 49vw;
-    height: 400px;
+    width: 90vw;
+    height: 600px;
 }
 
 #btn-SaibaMais {
-    position: relative;
+    
 
 }
 
