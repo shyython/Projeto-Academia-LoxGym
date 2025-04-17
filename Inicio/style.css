@@ -4,6 +4,11 @@
     box-sizing: 0px;
 }
 
+html,
+body {
+    min-height: 100%;
+}
+
 body {
     background-color: #282828;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,8 +17,6 @@ body {
 main {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    width: 90vw;
 }
 
 header {
@@ -30,7 +33,7 @@ header {
     align-items: center;
     justify-content: space-around;
     width: 300px;
-    
+
 }
 
 .link-info {
@@ -61,9 +64,7 @@ header {
     text-decoration: none;
 }
 
-#items-logo {
-
-}
+#items-logo {}
 
 
 #logo {
@@ -73,22 +74,29 @@ header {
 }
 
 #div-banner {
-    display: inline-block;
-    /* background-image: url('/imagens/banner2.avif');
-    background-position: 100px; */
-    height: 400px;
+    
 
 }
 
 .gym-banner {
-    width: 90vw;
-    height: 600px;
-}
-
-#btn-SaibaMais {
-    
+    display: flex;
+    max-width: 100%;
 
 }
+
+.subtitulo-home {
+    display: block;
+    color: #f9ffc1;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.titulo-home{
+display: block;
+color: #b9c82b;
+}
+
+#btn-SaibaMais {}
 
 section {
     display: flex;
@@ -100,10 +108,12 @@ section {
 .card-produtos {
     display: flex;
     background-color: #ffffff;
-    border-radius: 5px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #b9c82b;
     margin: 15px;
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 600px;
     align-items: center;
     justify-content: center;
     flex-flow: row wrap;
@@ -111,11 +121,11 @@ section {
 }
 
 .info {
-
+    
 }
 
-.card-produtos > img {
-    border-radius: 5px;
+.card-produtos>img {
+    
     width: 100%;
 
 }
@@ -143,11 +153,12 @@ footer {
 }
 
 #footer-endereco {
+
     font-size: 12px;
     text-align: center;
 }
 
-#footer-central{
+#footer-central {
     text-align: center;
     font-size: 12px;
 }
@@ -157,9 +168,7 @@ footer {
     font-size: 12px;
 }
 
-#icon-redes {
-
-}
+#icon-redes {}
 
 .icon-rd {
     background-color: #b9c82b;
