@@ -56,6 +56,7 @@ header {
     border-radius: 8px;
     align-items: flex-end;
     background-color: #b9c82b;
+   
 }
 
 #items-login {
@@ -74,54 +75,63 @@ header {
 }
 
 #div-banner {
-    
+    width: 100vw;
 
 }
 
 .gym-banner {
     display: flex;
-    max-width: 100%;
+    width: 100vw;
+
+}
+
+#titulo-planos{
+    display: block;
+    padding: 50px;
 
 }
 
 .subtitulo-home {
     display: block;
     color: #f9ffc1;
-    justify-content: flex-start;
-    align-items: flex-start;
+    font-size: 25px;
 }
 
 .titulo-home{
 display: block;
 color: #b9c82b;
+font-size: 60px;
 }
 
 #btn-SaibaMais {}
 
 section {
+    background-color: #ffffff;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    width: 80vw;
+    width: 100vw;
+    
 }
 
 .card-produtos {
     display: flex;
-    background-color: #ffffff;
-    border: 2px solid;
+    background-color: #fbffdfec;
+    box-shadow: 0 4px 8px 0 rgba(226, 226, 226, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid;
     border-radius: 10px;
-    border-color: #b9c82b;
+    border-color: #9fae18;
     margin: 15px;
-    width: 250px;
-    height: 600px;
-    align-items: center;
-    justify-content: center;
+    width: 300px;
+    height: 450px;
     flex-flow: row wrap;
-
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .info {
-    
+    width: 100%;
 }
 
 .card-produtos>img {
@@ -129,6 +139,57 @@ section {
     width: 100%;
 
 }
+
+.img-card {
+    display: flex;
+    
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-card-um{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.subtitulo-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.preco-card {
+    
+}
+
+.btn-matricula-card {
+    background-color: #b9c82b;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+
+.div-plano{
+    padding: 20px;
+
+}
+
+.plano-card{
+    
+   
+    
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
 
 footer {
     display: flex;
