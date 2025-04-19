@@ -6,7 +6,7 @@
 
 html,
 body {
-    min-height: 100%;
+   
 }
 
 body {
@@ -22,7 +22,7 @@ main {
 header {
     display: flex;
     background-color: #000000;
-    padding-top: 10px;
+    width: 100%;
     flex-wrap: row wrap;
     justify-content: space-around;
     flex-flow: row wrap;
