@@ -8,21 +8,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/imagens/logo.ico" type="image/x-icon">
-    <script src="funcoes_array.js" type="text/javascript" defer></script>  
+    <script src="funtion.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
     <header>
-        <div id="itens-logo">
-           <a href=""><img id="logo" src="/imagens/logo.jpg" alt=""></a> 
-        </div>
 
-        <nav id="nav-info">
-            <a class="link-info" href="">Início</a>
-            <a class="link-info" href="">Unidades</a>
-            <a class="link-info" href="">Planos</a>
-            <a class="link-info" href="">Sobre</a>
-        </nav>
+        <i class="material-symbols-outlined" id="burguer" onclick="clickMenu()">Menu</i>
+        <div id="itens-logo">
+            <a href=""><img id="logo" src="/imagens/logo.jpg" alt=""></a>
+        </div>
+        <menu id="itens">
+            <ul>
+                <li><a class="link-info" href="">Início</a></li>
+                <li><a class="link-info" href="">Unidades</a></li>
+                <li><a class="link-info" href="">Planos</a></li>
+                <li><a class="link-info" href="">Sobre</a></li>
+            </ul>
+        </menu>
 
         <div id="btn-teste">
             <a class="itens-login" href="matricula"><button class="btn-login">Matricule-se</button></a>
@@ -142,7 +147,6 @@
         <div id="icon-redes">
             <img class="icon-rd" src="/imagens/whatsapp.png" alt="">
 
-            <img class="icon-rd" src="/imagens/facebook.png" alt="">
             <h3>Contato</h3>
 
         </div>
@@ -168,9 +172,8 @@
             <p>6:00h às 15:00h</p>
             <h4>Domingo</h4>
             <p>6:00h às 12:00h</p>
-
         </div>
     </footer>
-</body>
 
+</body>
 </html>

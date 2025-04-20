@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
     margin: 0px;
     padding: 0px;
@@ -6,7 +8,10 @@
 
 html,
 body {
-   
+    width: 100%;
+    height: 100%;
+
+
 }
 
 body {
@@ -14,31 +19,83 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
+/* main {
     display: flex;
     flex-flow: row wrap;
-}
+    background-color: white;
+
+} */
 
 header {
     display: flex;
     background-color: #000000;
+    padding: 10px;
     width: 100%;
-    flex-wrap: row wrap;
     justify-content: space-around;
     flex-flow: row wrap;
 }
 
-#nav-info {
+
+#itens {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 300px;
+    width: 200px;
+
+}
+
+menu {
+    display: inline-block;
+justify-content: space-around;
+
+}
+
+
+i#burguer {
+    color: #f9ffc1;
+    display: block;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+i#burguer:hover {
+
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+@media screen and (min-width:768px) {
+    i#burguer {
+        display: none;
+    }
+
+    menu>ul>li {
+        display:block;
+    }
+}
+
+li {
+
+    list-style-type: none;
 
 }
 
 .link-info {
     color: #f9ffc1;
     text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    color: rgb(214, 212, 212);
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 0.1px solid #b9c82b;
+
 }
 
 #btn-teste {
@@ -54,9 +111,8 @@ header {
     height: 40px;
     border: none;
     border-radius: 8px;
-    align-items: flex-end;
     background-color: #b9c82b;
-   
+
 }
 
 #items-login {
@@ -69,9 +125,10 @@ header {
 
 
 #logo {
-    width: 100px;
-    height: 90px;
-
+    width: 90px;
+    height: 80px;
+display: flex;
+flex-flow: row wrap;
 }
 
 #div-banner {
@@ -85,7 +142,7 @@ header {
 
 }
 
-#titulo-planos{
+#titulo-planos {
     display: block;
     padding: 50px;
 
@@ -97,10 +154,10 @@ header {
     font-size: 25px;
 }
 
-.titulo-home{
-display: block;
-color: #b9c82b;
-font-size: 60px;
+.titulo-home {
+    display: block;
+    color: #b9c82b;
+    font-size: 60px;
 }
 
 #btn-SaibaMais {}
@@ -111,7 +168,7 @@ section {
     flex-flow: row wrap;
     justify-content: center;
     width: 100vw;
-    
+
 }
 
 .card-produtos {
@@ -135,20 +192,20 @@ section {
 }
 
 .card-produtos>img {
-    
+
     width: 100%;
 
 }
 
 .img-card {
     display: flex;
-    
+
     width: 20px;
     align-items: center;
     justify-content: center;
 }
 
-.titulo-card-um{
+.titulo-card-um {
     text-align: center;
     font-size: 25px;
     margin-top: 10px;
@@ -160,9 +217,7 @@ section {
     margin-bottom: 10px;
 }
 
-.preco-card {
-    
-}
+.preco-card {}
 
 .btn-matricula-card {
     background-color: #b9c82b;
@@ -173,21 +228,17 @@ section {
     text-align: center;
 }
 
-.div-plano{
+.div-plano {
     padding: 20px;
 
 }
 
-.plano-card{
-    
-   
-    
-}
+.plano-card {}
 
 li {
     display: inline-block;
     list-style-type: none;
-    
+
 }
 
 
@@ -227,7 +278,7 @@ footer {
 #footer-horarios {
     text-align: center;
     font-size: 12px;
-    
+
 }
 
 #icon-redes {}
@@ -239,15 +290,15 @@ footer {
 }
 
 #icon-central-atend {
-    
+
     border-radius: 50px;
     padding: 5px;
     width: 25px;
-   
+
 }
 
 #icon-endereco {
-   
+
     border-radius: 50px;
     padding: 5px;
     width: 25px;
