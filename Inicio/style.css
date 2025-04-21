@@ -15,16 +15,16 @@ body {
 }
 
 body {
-    background-color: #282828;
+    background-color: #000000;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* main {
+ main {
     display: flex;
     flex-flow: row wrap;
     background-color: white;
 
-} */
+}
 
 header {
     display: flex;
@@ -33,20 +33,27 @@ header {
     width: 100%;
     justify-content: space-around;
     flex-flow: row wrap;
+    align-items: center;
 }
 
-
 #itens {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: space-around;
-    width: 200px;
+    
 
+}
+
+#itens :hover {
+    background-color: #b9c82b;
+    
+    color: #f9ffc1;
 }
 
 menu {
     display: inline-block;
-justify-content: space-around;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
@@ -60,7 +67,7 @@ i#burguer {
 }
 
 i#burguer:hover {
-
+    
     cursor: pointer;
 }
 
@@ -75,7 +82,7 @@ i#burguer:hover {
     }
 
     menu>ul>li {
-        display:block;
+        display: inline-block;
     }
 }
 
@@ -98,6 +105,11 @@ li {
 
 }
 
+.link-info :hover{
+    border-bottom: 0.1px solid #ffffff;
+
+}
+
 #btn-teste {
     display: flex;
     flex-wrap: row wrap;
@@ -115,6 +127,11 @@ li {
 
 }
 
+.btn- :hover{
+    background-color: #94a028;
+    cursor: pointer;
+}
+
 #items-login {
     display: flex;
     flex-wrap: nowrap;
@@ -125,10 +142,11 @@ li {
 
 
 #logo {
+    display: block;
     width: 90px;
     height: 80px;
-display: flex;
-flex-flow: row wrap;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 #div-banner {
