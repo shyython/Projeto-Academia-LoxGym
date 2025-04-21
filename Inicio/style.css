@@ -122,9 +122,9 @@ li {
 
 }
 
-.btn-login :hover{
-    background-color: #94a028;
-    cursor: pointer;
+.btn1 :hover {
+background-color: #080800;
+
 }
 
 #items-login {
