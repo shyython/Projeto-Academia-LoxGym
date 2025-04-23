@@ -45,8 +45,8 @@ header {
 }
 
 #itens :hover {
-    background-color: #b9c82b;
-    border-bottom: 0.1px solid #080800;
+    background-color: #9ca82c;
+    border-bottom: 0.1px solid #f9ffc1;
     color: #f9ffc1;
 }
 
@@ -122,8 +122,9 @@ li {
 
 }
 
-.btn1 :hover {
-background-color: #080800;
+.btn-login:hover {
+background-color: #9ca82c;
+
 
 }
 
