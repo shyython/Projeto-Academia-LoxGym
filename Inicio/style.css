@@ -175,7 +175,7 @@ background-color: #9ca82c;
 }
 
 
-section {
+#section-planos {
     background-color: #ffffff;
     display: flex;
     flex-flow: row wrap;
@@ -228,9 +228,13 @@ section {
 .subtitulo-card {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 17px;
 }
 
-.preco-card {}
+.preco-card {
+    font-weight: bold;
+    font-size: 30px;
+}
 
 .btn-matricula-card {
     background-color: #b9c82b;
@@ -239,6 +243,12 @@ section {
     width: 150px;
     height: 40px;
     text-align: center;
+    font-size: 15px;
+}
+
+.btn-matricula-card:hover{
+    background-color: #9ca82c;
+    cursor: pointer;
 }
 
 .div-plano {
@@ -254,6 +264,22 @@ li {
 
 }
 
+#container-LoxApp {
+    background-color: #9ca82c;
+    width: 100vw;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-LoxApp {
+    text-align: center;
+}
+
+ul.app {
+    list-style-type: circle;
+}
+
 
 footer {
     display: flex;
@@ -264,7 +290,19 @@ footer {
     background-color: black;
     justify-content: space-around;
     align-items: center;
-    flex-flow: row wrap;
+    flex-direction: row;
+}
+
+.flex-itens {
+    
+    padding: 10px;
+    flex: 50%;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
 }
 
 #footer-logo {
