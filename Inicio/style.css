@@ -198,6 +198,8 @@ background-color: #9ca82c;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .info {
@@ -258,26 +260,19 @@ background-color: #9ca82c;
 
 .plano-card {}
 
-li {
-    display: inline-block;
-    list-style-type: none;
-
-}
-
 #container-LoxApp {
     background-color: #9ca82c;
     width: 100vw;
-    height: 200px;
     align-items: center;
     justify-content: space-between;
 }
 
 .div-LoxApp {
+    justify-content: space-around;
+    align-items: center;
     text-align: center;
-}
-
-ul.app {
-    list-style-type: circle;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 
