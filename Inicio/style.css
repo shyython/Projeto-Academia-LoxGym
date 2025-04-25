@@ -86,11 +86,6 @@ i#burguer:hover {
     }
 }
 
-li {
-
-    list-style-type: none;
-
-}
 
 .link-info {
     color: #f9ffc1;
@@ -175,9 +170,10 @@ background-color: #9ca82c;
 }
 
 .titulo-propraganda {
+    background-color: #ffffff;
     text-align: center;
+    padding-top: 15px;
 }
-
 
 #section-planos {
     background-color: #ffffff;
@@ -202,6 +198,7 @@ background-color: #9ca82c;
     justify-content: center;
     align-items: center;
     text-align: center;
+    list-style-type: none;
 
 }
 
@@ -266,16 +263,37 @@ background-color: #9ca82c;
 #container-LoxApp {
     background-color: #9ca82c;
     width: 100vw;
-    align-items: center;
-    justify-content: space-between;
+    margin-top: 10px;
+    padding: 150px;
 }
 
 .div-LoxApp {
-    justify-content: space-around;
-    align-items: center;
+    background-color: #ffffff;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    height: 300px;
+    width: 450px;
+    vertical-align: middle;
+    box-shadow: 0 4px 8px 0 rgba(226, 226, 226, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div-dowload {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-dowload {
+
+    width: 150;
+}
+
+.img-googlePla{
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.img-qcode{
+    width: 90px;
 }
 
 
