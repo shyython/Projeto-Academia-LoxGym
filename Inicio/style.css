@@ -270,26 +270,24 @@ background-color: #9ca82c;
 .div-LoxApp {
     background-color: #ffffff;
     text-align: center;
-    height: 300px;
-    width: 450px;
-    vertical-align: middle;
+    padding: 10px;
+
     box-shadow: 0 4px 8px 0 rgba(226, 226, 226, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.div-dowload {
+.div-download {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.img-dowload {
-
-    width: 150;
+.img-ios {
+    height: 60px;
+    width: 160px;
 }
 
 .img-googlePla{
     width: 200px;
-    padding: 0;
-    margin: 0;
+
 }
 
 .img-qcode{
