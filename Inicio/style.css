@@ -89,7 +89,6 @@ i#burguer:hover {
 
 .link-info {
     color: #f9ffc1;
-    text-decoration: none;
     padding: 10px;
     display: block;
     text-align: center;
@@ -261,17 +260,22 @@ background-color: #9ca82c;
 .plano-card {}
 
 #container-LoxApp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #9ca82c;
     width: 100vw;
     margin-top: 10px;
     padding: 150px;
+
 }
 
 .div-LoxApp {
     background-color: #ffffff;
     text-align: center;
     padding: 10px;
-
+    width: 600px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(226, 226, 226, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -281,6 +285,7 @@ background-color: #9ca82c;
 }
 
 .img-ios {
+    margin-top: 17px;
     height: 60px;
     width: 160px;
 }
@@ -294,6 +299,9 @@ background-color: #9ca82c;
     width: 90px;
 }
 
+#container-teste {
+   padding: 100px;
+}
 
 footer {
     display: flex;
