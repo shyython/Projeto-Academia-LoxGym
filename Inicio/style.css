@@ -261,39 +261,32 @@ background-color: #9ca82c;
 
 #container-LoxApp {
     display: flex;
-    flex-wrap: row nowrap;
+    justify-content: space-around;
+    flex-wrap: row nowrap;  
+    background-color: #d7e655;
     align-items: center;
-    justify-content: center;
-    background-color: #9ca82c;
-    width: 100vw;
-    margin-top: 10px;
-    padding: 150px;
-
-}
-
-li {
-    
-    
-}
-
-.div-LoxApp {
-    
-    background-color: #ffffff;
     text-align: center;
-    padding: 10px;
-    width: 600px;
-    border-radius: 10px;
+    width: 100vw;
     box-shadow: 0 4px 8px 0 rgba(226, 226, 226, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+
+}
+
+#div-lis {
+    display: inline-block;
+    text-align: left;
+   margin-bottom: 15px;
+
 }
 
 .div-download {
-
-    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .img-ios {
-    margin-top: 17px;
-    height: 60px;
+    height: 50px;
     width: 160px;
   
 }
@@ -305,6 +298,11 @@ li {
 
 .img-qcode{
     width: 90px;
+}
+
+.app-lox {
+    width: 260px;
+    
 }
 
 #container-teste {
@@ -321,7 +319,7 @@ footer {
     background-color: black;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
+    flex-wrap: row nowrap;
 }
 
 .flex-itens {
