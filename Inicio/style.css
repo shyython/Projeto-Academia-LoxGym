@@ -268,8 +268,17 @@ background-color: #9ca82c;
     text-align: center;
     width: 100vw;
     box-shadow: 0 4px 8px 0 rgba(226, 226, 226, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+    margin-top: 50px;
 
+}
+
+.titulo-app {
+    font-size: 38px;
+}
+
+.subtitulo-app{
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 #div-lis {
@@ -283,6 +292,7 @@ background-color: #9ca82c;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 .img-ios {
@@ -297,11 +307,13 @@ background-color: #9ca82c;
 }
 
 .img-qcode{
-    width: 90px;
+    width: 80px;
+    background-color: #ffffff;
+    padding: 2px;
 }
 
 .app-lox {
-    width: 260px;
+    width: 200px;
     
 }
 
