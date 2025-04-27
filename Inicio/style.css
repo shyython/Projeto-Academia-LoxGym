@@ -261,6 +261,7 @@ background-color: #9ca82c;
 
 #container-LoxApp {
     display: flex;
+    flex-wrap: row nowrap;
     align-items: center;
     justify-content: center;
     background-color: #9ca82c;
@@ -270,7 +271,13 @@ background-color: #9ca82c;
 
 }
 
+li {
+    
+    
+}
+
 .div-LoxApp {
+    
     background-color: #ffffff;
     text-align: center;
     padding: 10px;
@@ -280,7 +287,7 @@ background-color: #9ca82c;
 }
 
 .div-download {
-    display: flex;
+
     justify-content: space-around;
 }
 
@@ -288,11 +295,12 @@ background-color: #9ca82c;
     margin-top: 17px;
     height: 60px;
     width: 160px;
+  
 }
 
 .img-googlePla{
     width: 200px;
-
+   
 }
 
 .img-qcode{
@@ -300,7 +308,8 @@ background-color: #9ca82c;
 }
 
 #container-teste {
-   padding: 100px;
+ 
+    padding: 100px;
 }
 
 footer {
