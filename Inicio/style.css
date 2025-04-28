@@ -258,7 +258,14 @@ background-color: #9ca82c;
     cursor: pointer;
 }
 
+.beneficios {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
 .div-plano {
+    text-align: center;
     padding: 20px;
 
 }
