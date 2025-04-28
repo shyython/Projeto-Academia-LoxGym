@@ -201,6 +201,13 @@ background-color: #9ca82c;
 
 }
 
+.container-info {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
 .info {
     width: 100%;
 }
@@ -213,7 +220,6 @@ background-color: #9ca82c;
 
 .img-card {
     display: flex;
-
     width: 20px;
     align-items: center;
     justify-content: center;
@@ -261,7 +267,7 @@ background-color: #9ca82c;
 
 #container-LoxApp {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: row nowrap;  
     background-color: #d7e655;
     align-items: center;
