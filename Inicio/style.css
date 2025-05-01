@@ -198,6 +198,7 @@ background-color: #9ca82c;
     align-items: center;
     text-align: center;
     list-style-type: none;
+    font-size: 18px;
 
 }
 
@@ -261,7 +262,7 @@ background-color: #9ca82c;
 .beneficios {
     display: flex;
     flex-direction: row;
-    text-align: center;
+  
 }
 
 .div-plano {
@@ -294,12 +295,7 @@ background-color: #9ca82c;
     margin-bottom: 20px;
 }
 
-#div-lis {
-    display: inline-block;
-    text-align: left;
-   margin-bottom: 15px;
 
-}
 
 .div-download {
     display: flex;
